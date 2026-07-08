@@ -1,3 +1,80 @@
+
+🔥 PENTESTERFLOW: AI AGENT TẤN CÔNG NGAY TRONG TERMINAL – TỰ ĐỘNG RECON, PHÁT HIỆN LỖ HỔNG, GHI NHỚ BÀI HỌC, VÀ LUÔN CÓ CON NGƯỜI KIỂM SOÁT!
+
+Bạn đã bao giờ mất hàng giờ để chạy các công cụ recon thủ công, ghi chép kết quả, rồi lại quên mất mình đã làm gì? Hay bạn từng thử dùng AI cho pentest nhưng nó "ảo giác" ra các lỗ hổng không có thật?
+
+PentesterFlow là câu trả lời. Đây là một CLI agent mã nguồn mở, được thiết kế đặc biệt cho các penetration tester và bug hunter, giúp tự động hóa các tác vụ từ recon, khai thác, đến báo cáo – với sự kiểm soát tuyệt đối của con người.
+
+1️⃣ PENTESTERFLOW LÀ GÌ?
+PentesterFlow là một trợ lý AI chạy trong terminal, kết nối với các mô hình LLM (local hoặc cloud), lập kế hoạch tấn công dựa trên mục tiêu đã xác định, sử dụng các công cụ pentest thực tế, yêu cầu phê duyệt trước các hành động nhạy cảm, ghi nhớ bài học qua các phiên, và tạo báo cáo có bằng chứng.
+
+Nó được xây dựng dựa trên 3 ý tưởng cốt lõi:
+- Analyst control: Con người phê duyệt các hành động nhạy cảm và quyết định phạm vi tấn công.
+
+- Transparent execution: Các lệnh curl, tool calls, và evidence được hiển thị rõ ràng, có thể tái tạo và kiểm toán.
+
+- Operational learning: Hệ thống học từ các phiên trước mà không cần huấn luyện lại model.
+
+2️⃣ VÒNG ĐỜI PENTEST ĐẦY ĐỦ
+PentesterFlow hỗ trợ toàn bộ quy trình kiểm thử:
+- Scope: Xác định target URL, constraints, credentials.
+
+- Recon: Phát hiện host, endpoints, technologies, APIs.
+
+- Enumeration: Map parameters, roles, auth states, attack surfaces.
+
+- Validation: Tái tạo và xác minh các lỗ hổng tiềm năng.
+
+- Coverage: Theo dõi các endpoint đã test, dùng /next để biết bước tiếp theo.
+
+- Reporting: Lưu findings với PoC, evidence, impact, remediation.
+
+- Learning: Tự động lưu bài học để cải thiện phiên sau.
+
+3️⃣ TÍNH NĂNG NỔI BẬT
+1. Built-in Pentest Skills
+Không phải generic AI workflow – PentesterFlow có các skill chuyên biệt cho recon, web vulns (IDOR, SSRF, SSTI, JWT, GraphQL, race conditions, deserialization).
+
+2. Continuous Learning System
+Hệ thống học tập cục bộ cải thiện các phiên tương lai mà không cần huấn luyện lại model. Nó lưu: preferences, successful workflows, failed assumptions, coverage gaps, và nhiều hơn nữa.
+
+3. Burp Integration
+Tích hợp với Burp Suite: gửi traffic từ Burp vào CLI, import findings đã xác nhận trở lại Burp issues.
+
+4. Slash Commands
+Hơn 20 lệnh điều khiển trực quan: /provider (chọn backend), /target (đặt mục tiêu), /compact (tóm tắt phiên), /memory (xem bộ nhớ), /skills (quản lý skill), /yolo (auto-approval cho lab).
+
+5. Session Memory & Resume
+Lưu phiên làm việc, tự động snapshot mỗi 5 phút, và resume chính xác với recap đầy đủ.
+
+4️⃣ HỖ TRỢ ĐA DẠNG LLM BACKENDS
+PentesterFlow hỗ trợ nhiều backend: Ollama, LM Studio, Kimi, Groq, OpenRouter, DeepSeek, Gemini, và các API tương thích OpenAI. Bạn có thể chạy local với Ollama để đảm bảo privacy, hoặc dùng cloud model mạnh mẽ.
+
+5️⃣ CÀI ĐẶT CỰC NHANH
+HƯỚNG DẪN CÀI ĐẶT + GITHUB DƯỚI COMMENT 👇
+
+6️⃣ AI NÊN DÙNG PENTESTERFLOW?
+1. Penetration Tester / Bug Hunter: Tự động hóa recon, validation, reporting.
+
+2. Security Researcher: Thử nghiệm các kỹ thuật tấn công mới.
+
+3. DevOps / SRE: Kiểm tra bảo mật ứng dụng nội bộ.
+
+4. Sinh viên an ninh mạng: Học pentest với AI hướng dẫn.
+
+II. TÓM LẠI
+PentesterFlow không chỉ là một AI agent khác. Nó là một công cụ pentest thực chiến: minh bạch, có kiểm soát, học hỏi liên tục, và tích hợp với workflow của pentester. Nó giải quyết các vấn đề mà agentic AI thường gặp: hallucinated findings, weak context retention, và poor tool integration.
+
+CHÚC AE ỨNG DỤNG TỐT NHÉ!
+
+-------------- END --------------
+🎁 TẤT CẢ LỘ TRÌNH & THÔNG TIN ĐỂ BẤT KỲ AI NÀO CŨNG LÀM ĐƯỢC DỰ ÁN VÀ LÀM CHỦ ĐƯỢC MÌNH ĐANG LÀM GÌ.
+👉 Xem tất cả trong LMS:
+🔗 https://lms-codewebkhongkho.com/pricing?tab=video
+
+#PentesterFlow #Pentesting #BugBounty #CyberSecurity #OpenSource #InfoSec #AIForSecurity #DevSecOps
+
+
 <div align="center">
 
 <img src="assets/logo.png" alt="PentesterFlow" width="520" />
